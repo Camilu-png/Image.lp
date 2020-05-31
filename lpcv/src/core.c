@@ -2,7 +2,7 @@
 
 // greetings: Imprime un saludo.
 void greetings() {
-    printf("Hola, soy Camilu, jijiji");
+    printf("Hola, Mundo!");
 }
 
 
