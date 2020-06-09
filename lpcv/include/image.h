@@ -2,7 +2,10 @@
 #define IMAGE
 
 // Image: Contenedor de una imagen
-struct _Image {};
+struct _Image {
+    int width, height, channels;
+    char ***matrix;
+};
 
 typedef struct _Image Image;
 
